@@ -60,5 +60,20 @@ namespace cv_dt
                 lst_ht.Items.Add("\nHình tròn: " + dem.ToString() + "\t " + (st.bankinh) + "   \t\t " +   st.chuvi.ToString() + "    \t " +   st.dientich.ToString());
             }
         }
+
+        private void thoat_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void hinhvuong_Click(object sender, RoutedEventArgs e)
+        {
+            txb_hinhvuong.IsEnabled = true;
+        }
+
+        private void hinhtron_Click(object sender, RoutedEventArgs e)
+        {
+            txb_hinhtron.IsEnabled = true;
+        }
     }
 }
